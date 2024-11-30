@@ -67,7 +67,7 @@ def oyun_baslat():
         # Rastgele bir kelime seç
         kelime, anlam = random.choice(list(kelimeler.items()))
 
-        # Anlamı göster
+        # Kelimeyi göster;
         print(f"\nKelime: {kelime}")
         tahmin = input("Bu kelime nedir? ")
 
